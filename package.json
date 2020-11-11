@@ -4,7 +4,7 @@
   "homepage": ".",
   "devDependencies": {
     "@beefswap/core": "^1.0.1",
-    "@beefswap/sdk": "^3.0.3",
+    "@beefswap/sdk": "^3.0.4",
     "@beefswap/v2-periphery": "^1.1.0-beta.0",
     "@ethersproject/experimental": "^5.0.1",
     "@popperjs/core": "^2.4.4",
