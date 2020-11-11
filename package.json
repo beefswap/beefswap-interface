@@ -2,7 +2,6 @@
   "name": "@uniswap/interface",
   "description": "Uniswap Interface",
   "homepage": ".",
-  "private": true,
   "devDependencies": {
     "@beefswap/core": "^1.0.1",
     "@beefswap/v2-periphery": "^1.1.0-beta.0",
