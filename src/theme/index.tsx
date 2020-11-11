@@ -447,4 +447,5 @@ button#connect-wallet {
   height: 1px;
   background-color: 1px solid #8771c6 !important;
 }
+
 `
