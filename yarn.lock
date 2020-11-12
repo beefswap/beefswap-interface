@@ -1166,10 +1166,10 @@
   dependencies:
     "@openzeppelin/contracts" "^3.2.0"
 
-"@beefswap/sdk@^3.0.4":
-  version "3.0.4"
-  resolved "http://149.129.81.147:4873/@beefswap%2fsdk/-/sdk-3.0.4.tgz#7cb42adc3ce1565e1706a575ce85fd7cc4470673"
-  integrity sha512-F8g06FkYhWN2s4EbG9pae9ZSZomTSaVbzbYTbevvZ1OsxP+Wzx9fshE+f74g5DEUNal9FXJdndMn3nQzHegSVA==
+"@beefswap/sdk@^3.0.5":
+  version "3.0.5"
+  resolved "http://149.129.81.147:4873/@beefswap%2fsdk/-/sdk-3.0.5.tgz#480774f6d0bfd9c28274baa0efeea824ee306c98"
+  integrity sha512-KDem32RU1QzDAwGkqCgp/V4v/gm4UGzrbD1y5fejaLUY5t0AKFFDVFcW6sY4lBm2Dz0661RQBoQ1OeFuJWW0dg==
   dependencies:
     "@beefswap/core" "^1.0.1"
     big.js "^5.2.2"

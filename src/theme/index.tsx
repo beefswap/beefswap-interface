@@ -409,7 +409,7 @@ button#connect-wallet {
   color:#CEBFF7 !important
 }
 .hPcmtA{
-  background-color:#2a0946 !important
+  background-color:#33256c !important
 }
 .cCafyC {
   color: #CEBFF7 !important;
@@ -447,5 +447,103 @@ button#connect-wallet {
   height: 1px;
   background-color: 1px solid #8771c6 !important;
 }
+.iSdGPe:disabled {
+  background-color: #3c2f46 !important;
+  color: #756383 !important;
+  cursor: auto;
+  box-shadow: none;
+  border: 1px solid transparent;
+  outline: none;
+  opacity: 1;
+}
 
+.iSdGPe{
+  background-color: #6845f3 !important;
+  color: #ffffff !important;
+}
+.hWPQJu:disabled {
+  opacity: 50%;
+  cursor: auto;
+  box-shadow: none;
+  background-color: #a0597a !important;
+  border: 1px solid #a0597a !important;
+}
+.cGeiys {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 0px;
+  width: 100%;
+  border-radius: 16px;
+  padding: 1.25rem;
+  padding: 0px;
+  border-radius: 20px;
+  border: 1px solid #2C2F36;
+  background-color: #220940 !important;
+}
+.cVwkdB {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 16px;
+  padding: 1.25rem;
+  padding: 1rem;
+  border-radius: 20px;
+  border: 1px solid #371e53 !important;
+  background-color: #220940 !important;
+}
+.hbnQyV {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  border-radius: 16px;
+  padding: 1.25rem;
+  border: 1px solid #371e53 !important;
+  background-color: #2a0946 !important;
+}
+.cGeiys {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 0px;
+  width: 100%;
+  border-radius: 16px;
+  padding: 1.25rem;
+  padding: 0px;
+  border-radius: 20px;
+  border: 1px solid #371e53 !important;
+  background-color: #212429;
+}
+.iKrjMv{
+  border: 1px solid #bea7ff !important;
+  background-color: #200c35 !important;
+  color: #CEBFF7 !important;
+}
+.cFUzcf{
+  border: 1px solid #6845fc !important;
+  background-color: #6845fc !important;
+  color: #ffffff !important;
+}
+.bPKwzq{
+  border: 1px solid #492671 !important;
+  background-color: #220e34 !important;
+}
+.dtHEmr {
+  width: 100%;
+  height: 1px;
+  background-color: #371e53 !important;
+}
+.fNvyvP{
+  background-color: #1a0d26 !important;
+  color: #ddcfe8 !important;
+  border: 1px solid #735788 !important;
+}
+.lgLXhl {
+  width: 100%;
+  height: 1px;
+  background-color: #28153c !important;
+}
 `
