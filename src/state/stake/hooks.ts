@@ -23,6 +23,7 @@ export const STAKING_REWARDS_INFO: {
       tokens: [WETH[ChainId.ROPSTEN], TS],
       stakingRewardAddress: '0xa84325ff60734231BcB4C2dB42403d57bF3a8177'
     }
+
     // ,
     // {
     //   tokens: [WETH[ChainId.ROPSTEN], DAI],
