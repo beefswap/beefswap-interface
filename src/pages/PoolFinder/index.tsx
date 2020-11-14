@@ -75,7 +75,6 @@ export default function PoolFinder() {
       </Text>
     </LightCard>
   )
-    debugger
   return (
     <AppBody>
       <FindPoolTabs />

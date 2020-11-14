@@ -223,7 +223,7 @@ html {
 body {
   min-height: 100vh;
   background-repeat: no-repeat;
-  background-image: radial-gradient(50% 50% at 50% 50%,#120f39 0%,#130519 100%);
+  background-image: radial-gradient(50% 50% at 50% 50%,#1d0f39 0%,#0d0212 100%);
 }
 .fltkUW{
   background:#2A0946 !important
@@ -336,7 +336,7 @@ a:active {
   color: #fff !important;
 }
 .dhzTqc { 
-  border-bottom: 1px solid #371e53 !important;
+  border-bottom: 1px solid #190f24 !important;
 }
 .fkqoIs{
   background:#200c35 !important
@@ -448,7 +448,7 @@ button#connect-wallet {
   background-color: 1px solid #8771c6 !important;
 }
 .iSdGPe:disabled {
-  background-color: #3c2f46 !important;
+  background-color: #442a58 !important;
   color: #756383 !important;
   cursor: auto;
   box-shadow: none;
@@ -546,5 +546,129 @@ button#connect-wallet {
   height: 1px;
   background-color: #28153c !important;
 }
-
+.dGICGZ:hover {
+  background-color: #251336 !important;
+}
+.ggJnuv:hover, .ggJnuv:focus {
+  opacity: 0.5;
+}
+svg[Attributes Style] {
+  width: 16;
+  height: 16;
+  fill: none;
+  stroke: #e0a9f8;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.dQBVju:hover {
+  cursor: pointer;
+  opacity: 0.5 !important;
+}
+.kgjALq {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 45px 10px;
+  width: 100%;
+  border-radius: 16px;
+  padding: 1.25rem;
+  padding: 45px 10px;
+  border: 1px solid #371e53 !important;
+  background-color: #220940 !important;
+}
+.bmkbGE {
+  border: 1px solid #bea7ff !important;
+}
+.css-57in8s {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-weight: 400;
+  font-size: 16px;
+  color: #CEBFF7 !important;
+  text-align: center;
+}
+.bJdAaU {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #de47bb;
+  font-weight: 500;
+}
+.kNnROu{
+  border: 1px solid #bea7ff !important;
+}
+.dpMQUr {
+  color: #48328f;
+}
+.hTRzcV {
+  display: grid;
+  grid-auto-rows: auto;
+  padding: 24px;
+  background: #23063b;
+}
+.fMutrR {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-row-gap: 12px;
+  padding: 24px;
+  background-color: #2a0946 !important;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.lmYktY{
+  background-color: #301746 !important;
+}
+.css-rrf93y {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 12px;
+  color: #4b328f !important;
+  text-align: center;
+}
+.css-1opzynv {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-weight: 500;
+  font-size: 14px;
+  color: #de47bb !important;
+}
+.kRKvte{
+  color:#de47bb
+}
+.hiGqBI {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  border-radius: 16px;
+  padding: 1.25rem;
+  background-color: #2a0946 !important;
+}
+.kRKvte{
+  color: #de47bb !important;
+}
+.ktbSyv {
+  border: 1px solid #6845fc !important;
+  background-color: #6845fc !important;
+  color: #ffffff !important;
+}
+.iiGWKy{
+  border: 1px solid #bea7ff !important;
+}
+.iiGWKy:hover{
+  border: 1px solid #8771c6 !important;
+}
+.gkbsfl {
+  background: radial-gradient(91.85% 100% at 1.84% 0%,#791dc4 0%,#330b6e 100%) !important;
+}
+.dPumgS{
+  border:1px solid #bea7ff !important
+}
+.dPumgS:hover{
+  border: 1px solid #8771c6 !important;
+}
 `
