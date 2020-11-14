@@ -546,4 +546,5 @@ button#connect-wallet {
   height: 1px;
   background-color: #28153c !important;
 }
+
 `
