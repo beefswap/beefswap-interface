@@ -1159,19 +1159,19 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@beefswap/core@^1.0.1":
-  version "1.0.1"
-  resolved "http://149.129.81.147:4873/@beefswap%2fcore/-/core-1.0.1.tgz#d790f4980fe4bbacf867ee45be5257fac89f5713"
-  integrity sha512-sFVRPQ80ii9PHq2rCxOjL2pGpmJLDaT5iLqSNX3Q8e1aY6HcdOK3c2x7Yqywtj0THmdU83uwxgRFiHxRVqQ3rQ==
+"@beefswap/core@^1.0.0":
+  version "1.0.0"
+  resolved "http://149.129.81.147:4873/@beefswap%2fcore/-/core-1.0.0.tgz#872e41fb96449a6800d5798f598252043b00d6fc"
+  integrity sha512-Yw7fwi2jl+7HHO7rI/B4M1RRjo9tJIacQQz9swT77o3IAyVSEAi9S87OP++iLJimJEA+x9kxf1Bz0AX+abIx4g==
   dependencies:
     "@openzeppelin/contracts" "^3.2.0"
 
-"@beefswap/sdk@^1.0.0":
-  version "1.0.0"
-  resolved "http://149.129.81.147:4873/@beefswap%2fsdk/-/sdk-1.0.0.tgz#535b552794f08a5c26aecde71cad7c6f6e690b75"
-  integrity sha512-CmF3poGzO3ZZa0ZcKnDPQNMoZIOa8wOK8YN48Dy9iK9nxrCG1XK7aAfRJoZr1xnv6bA2O6qBTgJTEci0R9bMJw==
+"@beefswap/sdk@^1.0.1":
+  version "1.0.1"
+  resolved "http://149.129.81.147:4873/@beefswap%2fsdk/-/sdk-1.0.1.tgz#e4122aa08d0d201d486b99e033193750311df4ea"
+  integrity sha512-S26Ewkkm1RpDgLCQr+6tyohvoVIiRiWejMTPP2jZg0nRNNcVorCiqElv0GtU/+R7J2T0GQX0kEDIgGqB9aBz4Q==
   dependencies:
-    "@beefswap/core" "^1.0.1"
+    "@beefswap/core" "^1.0.0"
     big.js "^5.2.2"
     decimal.js-light "^2.5.0"
     jsbi "^3.1.1"
@@ -1179,12 +1179,12 @@
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-"@beefswap/v2-periphery@^1.1.0-beta.0":
-  version "1.1.0-beta.0"
-  resolved "http://149.129.81.147:4873/@beefswap%2fv2-periphery/-/v2-periphery-1.1.0-beta.0.tgz#24a56bfa42bb8e390c9512701198a9cd3ba77d7b"
-  integrity sha512-B0LTNTyJTYWoMVkf4Sq7RYjmAOJkpp+l/+1nALH5lDVY0QqkS4CJwAlzEYuKNk/GF2vrKNyGi20ZYtlk+eTNZg==
+"@beefswap/v2-periphery@^1.0.0":
+  version "1.0.0"
+  resolved "http://149.129.81.147:4873/@beefswap%2fv2-periphery/-/v2-periphery-1.0.0.tgz#aacec5f04b2fb8c78aed28ebd9c3bebdff4fdc70"
+  integrity sha512-GxsfVjHBYUqhuFBAhd+8u4t/TVYT1BYo8Pbq/n0vGeHPiCNIrOrbeXFxJxu7s7hzIX6w/SJYA7MPGOaopsJ45Q==
   dependencies:
-    "@beefswap/core" "^1.0.1"
+    "@beefswap/core" "^1.0.0"
     "@uniswap/lib" "1.1.1"
 
 "@cnakazawa/watch@^1.0.3":

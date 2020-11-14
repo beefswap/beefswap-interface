@@ -3,9 +3,9 @@
   "description": "Uniswap Interface",
   "homepage": ".",
   "devDependencies": {
-    "@beefswap/core": "^1.0.1",
-    "@beefswap/sdk": "^1.0.0",
-    "@beefswap/v2-periphery": "^1.1.0-beta.0",
+    "@beefswap/core": "^1.0.0",
+    "@beefswap/sdk": "^1.0.1",
+    "@beefswap/v2-periphery": "^1.0.0",
     "@ethersproject/experimental": "^5.0.1",
     "@popperjs/core": "^2.4.4",
     "@reach/dialog": "^0.10.3",

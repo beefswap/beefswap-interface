@@ -78,7 +78,7 @@ export default function Pool() {
   const theme = useContext(ThemeContext)
   const { account } = useActiveWeb3React()
 
-  // fetch the user's balances of all tracked V2 LP tokens
+  // fetch the user's balances of all tracked LP tokens
   const trackedTokenPairs = useTrackedTokenPairs()
   const tokenPairsWithLiquidityTokens = useMemo(
     () => trackedTokenPairs.map(tokens => ({ liquidityToken: toV2LiquidityToken(tokens), tokens })),
@@ -92,7 +92,7 @@ export default function Pool() {
     liquidityTokens
   )
 
-  // fetch the reserves for all V2 pools in which the user has a balance
+  // fetch the reserves for all pools in which the user has a balance
   const liquidityTokensWithBalances = useMemo(
     () =>
       tokenPairsWithLiquidityTokens.filter(({ liquidityToken }) =>

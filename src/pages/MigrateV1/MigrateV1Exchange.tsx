@@ -169,7 +169,7 @@ function V1PairMigration({ liquidityTokenAmount, token }: { liquidityTokenAmount
         })
 
         addTransaction(response, {
-          summary: `Migrate ${token.symbol} liquidity to V2`
+          summary: `Migrate ${token.symbol} liquidity to`
         })
         setPendingMigrationHash(response.hash)
       })
@@ -187,7 +187,7 @@ function V1PairMigration({ liquidityTokenAmount, token }: { liquidityTokenAmount
   return (
     <AutoColumn gap="20px">
       <TYPE.body my={9} style={{ fontWeight: 400 }}>
-        This tool will safely migrate your V1 liquidity to V2 with minimal price risk. The process is completely
+        This tool will safely migrate your V1 liquidity to with minimal price risk. The process is completely
         trustless thanks to the{' '}
         {chainId && (
           <ExternalLink href={getEtherscanLink(chainId, MIGRATOR_ADDRESS, 'address')}>
@@ -200,7 +200,7 @@ function V1PairMigration({ liquidityTokenAmount, token }: { liquidityTokenAmount
       {!isFirstLiquidityProvider && largePriceDifference ? (
         <YellowCard>
           <TYPE.body style={{ marginBottom: 8, fontWeight: 400 }}>
-            It{"'"}s best to deposit liquidity into Beefswap V2 at a price you believe is correct. If the V2 price seems
+            It{"'"}s best to deposit liquidity into Beefswap at a price you believe is correct. If the price seems
             incorrect, you can either make a swap to move the price or wait for someone else to do so.
           </TYPE.body>
           <AutoColumn gap="8px">
@@ -241,7 +241,7 @@ function V1PairMigration({ liquidityTokenAmount, token }: { liquidityTokenAmount
       {isFirstLiquidityProvider && (
         <PinkCard>
           <TYPE.body style={{ marginBottom: 8, fontWeight: 400 }}>
-            You are the first liquidity provider for this pair on Beefswap V2. Your liquidity will be migrated at the
+            You are the first liquidity provider for this pair on Beefswap. Your liquidity will be migrated at the
             current V1 price. Your transaction cost also includes the gas to create the pool.
           </TYPE.body>
 
@@ -304,7 +304,7 @@ function V1PairMigration({ liquidityTokenAmount, token }: { liquidityTokenAmount
         </div>
       </LightCard>
       <TYPE.darkGray style={{ textAlign: 'center' }}>
-        {`Your Uniswap V1 ${token.symbol}/ETH liquidity will become Beefswap V2 ${token.symbol}/ETH liquidity.`}
+        {`Your Uniswap V1 ${token.symbol}/ETH liquidity will become Beefswap ${token.symbol}/ETH liquidity.`}
       </TYPE.darkGray>
     </AutoColumn>
   )
@@ -346,7 +346,7 @@ export default function MigrateV1Exchange({
           <BackArrow to="/migrate/v1" />
           <TYPE.mediumHeader>Migrate V1 Liquidity</TYPE.mediumHeader>
           <div>
-            <QuestionHelper text="Migrate your liquidity tokens from Uniswap V1 to Beefswap V2." />
+            <QuestionHelper text="Migrate your liquidity tokens from Uniswap V1 to Beefswap." />
           </div>
         </AutoRow>
 
@@ -355,7 +355,7 @@ export default function MigrateV1Exchange({
         ) : validatedAddress && chainId && token?.equals(WETH[chainId]) ? (
           <>
             <TYPE.body my={9} style={{ fontWeight: 400 }}>
-              Because Beefswap V2 uses WETH under the hood, your Uniswap V1 WETH/ETH liquidity cannot be migrated. You
+              Because Beefswap uses WETH under the hood, your Uniswap V1 WETH/ETH liquidity cannot be migrated. You
               may want to remove your liquidity instead.
             </TYPE.body>
 
