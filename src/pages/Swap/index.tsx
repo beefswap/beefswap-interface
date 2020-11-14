@@ -305,6 +305,7 @@ export default function Swap() {
                 <ArrowWrapper clickable>
                   <ArrowDown
                     size="16"
+                    stroke="#AB90F7" 
                     onClick={() => {
                       setApprovalSubmitted(false) // reset 2 step UI for approvals
                       onSwitchTokens()
