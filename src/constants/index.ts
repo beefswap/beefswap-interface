@@ -21,6 +21,11 @@ export const AMPL = new Token(ChainId.MAINNET, '0xD46bA6D942050d489DBd938a2C909A
 export const WBTC = new Token(ChainId.MAINNET, '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599', 18, 'WBTC', 'Wrapped BTC')
 
 export const TS = new Token(ChainId.ROPSTEN, '0x3b8d93632632a88425c330846962d1c49ed7b451', 18, 'TS', 'TS Stablecoin')
+export const ZW = new Token(ChainId.ROPSTEN, '0x9f90f17ee239c090a69c53c2be1a015eafcd095a', 18, 'ZW', 'ZW Stablecoin')
+
+export const SK = new Token(ChainId.ROPSTEN, '0xbc6d206ca43344dc267b6358465b00fdf9353377', 18, 'SK', 'SK Stablecoin')
+
+export const DD = new Token(ChainId.ROPSTEN, '0x7c41d83969e37124e4366f7705540d7e957acdfa', 18, 'DD', 'DD Stablecoin')
 
 // Block time here is slightly higher (~1s) than average in order to avoid ongoing proposals past the displayed time
 export const AVERAGE_BLOCK_TIME_IN_SECS = 14

@@ -1,7 +1,8 @@
 import { ChainId, CurrencyAmount, JSBI, Token, TokenAmount, WETH, Pair } from '@beefswap/sdk'
 import { useMemo } from 'react'
 // import { TS,DAI, UNI, USDC, USDT, WBTC } from '../../constants'
-import { TS, UNI } from '../../constants'
+// import { TS,ZW, SK,DD, UNI } from '../../constants'
+import { DD, UNI } from '../../constants'
 import { STAKING_REWARDS_INTERFACE } from '../../constants/abis/staking-rewards'
 import { useActiveWeb3React } from '../../hooks'
 import { NEVER_RELOAD, useMultipleContractSingleData } from '../multicall/hooks'
@@ -19,11 +20,22 @@ export const STAKING_REWARDS_INFO: {
   }[]
 } = {
   [ChainId.ROPSTEN]: [
+    // {
+    //   tokens: [WETH[ChainId.ROPSTEN], TS],
+    //   stakingRewardAddress: '0xa84325ff60734231BcB4C2dB42403d57bF3a8177'
+    // },
+    // {
+    //   tokens: [WETH[ChainId.ROPSTEN], ZW],
+    //   stakingRewardAddress: '0x808f284E358bdDaE7b3cE1fc0e28E59264ce154f'
+    // },
+    // {
+    //   tokens: [WETH[ChainId.ROPSTEN], SK],
+    //   stakingRewardAddress: '0x97f286e6987050A82D19b86e78421a92998f4f61'
+    // },
     {
-      tokens: [WETH[ChainId.ROPSTEN], TS],
-      stakingRewardAddress: '0xa84325ff60734231BcB4C2dB42403d57bF3a8177'
+      tokens: [WETH[ChainId.ROPSTEN], DD],
+      stakingRewardAddress: '0x81878b6Ab8dd1C954c94c1e4431B9D5f52bBa753'
     }
-
     // ,
     // {
     //   tokens: [WETH[ChainId.ROPSTEN], DAI],
